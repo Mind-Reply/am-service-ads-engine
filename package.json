@@ -1,0 +1,14 @@
+{
+  "name": "am-service-ads-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HighStrike campaign orchestration core; dry-run by default",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/webhook/verify-webhook.mjs && node --check src/campaign/dry-run.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
